@@ -4,9 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>test</title>
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <!-- resetcss -->
@@ -18,40 +16,42 @@
 
 <body>
     <header>
-        <div class="container">
-            <p class="left">TEST.1</p>
-            <nav>
+        <div class="head">
+            <div class="left">TEST.1</div>
+            <div class="nav">
                 <ul>
                     <li><a href="#">ABOUT</a></li>
                     <li><a href="#">MEMBER</a></li>
                     <li><a href="#">COURSE</a></li>
                     <li><a href="#">CONTACT</a></li>
                 </ul>
-            </nav>
+            </div>
         </div>
     </header>
 
     <!-- top-->
-    <div class="top-img">
-        <img src="img/top.jpg" alt="top" width="100%">
+    <div class="top">
+        <img src="img/top.jpg" alt="top" width="100%" height="100%">
     </div>
 
     <!-- main-->
-    <div class="main">
-        <div class="container">
-            <h1 class="about">ABOUT</h1>
-            <div class="about-flex">
-                <div class="about-container-left">
-                    <img src="img/about1.jpg" alt="about1" class="about1">
-                    <p class="tx">テストテストテストテストテストテストテストテストテストテストテストテストテスト</p>
-                </div>
-                <div class="about-container-right">
-                    <img src="img/about2.jpg" alt="about2" class="about2">
-                    <p class="tx">テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト</p>
+    <div class="contents-wrapper">
+        <div class="article-wrapper">
+            <div class="about-area">
+                <h1>ABOUT</h1>
+                <div class="about-flex">
+                    <div class="about-container-left">
+                        <img src="img/about1.jpg" alt="about1" class="about1">
+                        <p class="tx">テストテストテストテストテストテストテストテストテストテストテストテストテスト</p>
+                    </div>
+                    <div class="about-container-right">
+                        <img src="img/about2.jpg" alt="about2" class="about2">
+                        <p class="tx">テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト</p>
+                    </div>
                 </div>
             </div>
-
-            <div class="contents2">
+            <!-- news-area -->
+            <div class="news-area">
                 <h1 class="news">NEWS</h1>
                 <div class="calender">
                     <p class="day">2025年3月20日</p>
@@ -68,24 +68,26 @@
             </div>
             <a href="#" class="btn">一覧を見る</a>
         </div>
-
-            <!-- sidebar-->
-            <div class="container">
-            <div class="sidebar">
+        <!-- side-wrapper -->
+        <div class="side-wrapper">
+            <div class="picture-area">
                 <p>
                 <img src="img/side1.jpg" alt="サイド１" class="imgside">
                 <img src="img/side2.jpg" alt="サイド２" class="imgside">
                 <img src="img/side3.jpg" alt="サイド３" class="imgside">
                 </p>
-                <h2 class="category">CATEGORY</h2>
+            </div>
+            <!-- category -->
+            <div class="category">
+                <h2>CATEGORY</h2>
                 <ul>
                     <li>カテゴリー１</li>
                     <li>カテゴリー２</li>
                     <li>カテゴリー３</li>
                 </ul>
             </div>
-            </div>
         </div>
+    </div>
 
 
     <!-- footer-->
@@ -93,7 +95,6 @@
     <footer>
         <p>Copyright ©︎ iSara All Rights Reserved.</p>
     </footer>
-
 </body>
 
 </html>
