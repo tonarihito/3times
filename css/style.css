@@ -50,19 +50,13 @@ justify-content: space-evenly;
 
 /* 全体部分 */
 .contents-wrapper{
-  /* width: 1%; */
   max-width: 100%;
-  /* margin: 0 auto; */
   padding:40px 15px 0 15px
 }
 /* /全体部分 */
 
 
 /* article-wrapper */
-
-.article-wrapper{
-\
-}
 
 h1 {
 font-size: 22px;
@@ -101,7 +95,6 @@ padding-bottom: 20px;
 }
 
 .day{
-/* flex-basis: 100px; */
 font: Bold 14px YuGothic;
 letter-spacing: 0;
 color: #333333;
@@ -149,7 +142,6 @@ border-bottom: 4px solid #1F91BE;
 width: 100%;
 padding-bottom: 6px;
 padding-top:58px;
-margin-bottom: 20px;
 }
 
 .picture-area {
@@ -168,8 +160,7 @@ img.imgside{
 }
 
 .category li{
-  padding-left: 1px;
-  padding: 20px 0 0 0 ;
+  padding: 23px 0 0 5px ;
   font-size: 14px;
 }
 
